@@ -1,12 +1,16 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow-x: hidden; }
+  overflow-x: hidden; 
+  background-image: url("https://imgur.com/a/evaxM");
+  }
 
 p {
-  font-size: 20px; }
+  font-size: 20px; 
+  }
 
 p.small {
-  font-size: 16px; }
+  font-size: 16px; 
+  }
 
 a,
 a.active,
