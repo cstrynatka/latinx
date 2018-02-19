@@ -455,3 +455,66 @@ footer {
 .btn:active,
 .btn:focus {
   outline: none; }
+
+#newsletter_form
+{
+ display:none;
+ width:100%;
+ height:100%;
+ background-color:#0080FF;
+ text-align:center;
+ padding-top:150px; 
+}
+#newsletter_form h1
+{
+ font-size:45px;
+ color:white;
+}
+#newsletter_form #user_name
+{
+ margin-top:20px;
+ width:20%;
+ height:50px;
+ padding-left:20px;
+ border:none;
+ font-size:17px;
+}
+#newsletter_form #email
+{
+ margin-top:20px;
+ width:50%;
+ height:50px;
+ padding-left:20px;
+ border:none;
+ font-size:17px;
+}
+#newsletter_form input[type="submit"]
+{
+ margin-top:10px;
+ width:35%;
+ height:50px;
+ border:none;
+ background-color:#084B8A;
+ color:white;
+ font-size:22px;
+ cursor:pointer;
+}
+#newsletter_form input[type="button"]
+{
+ margin-top:10px;
+ width:35%;
+ height:50px;
+ border:none;
+ background-color:#FE2E2E;
+ color:white;
+ font-size:22px;
+ cursor:pointer;
+}
+#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+ width:995px;
+}
+
