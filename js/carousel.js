@@ -1,4 +1,4 @@
-$(document).on('ready', function() {
+/* $(document).on('ready', function() {
   var slide = $('.slider-single');
   var slideTotal = slide.length - 1;
   var slideCurrent = -1;
@@ -84,4 +84,5 @@ $(document).on('ready', function() {
     slideRight();
   });
   slideInitial();
-});
+}); */
+
