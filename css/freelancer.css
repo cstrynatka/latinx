@@ -38,6 +38,9 @@ h6 {
     text-align: left;
   }
 
+.container {
+  width: 100%;
+}
 
 hr.star-light,
 hr.star-primary {
