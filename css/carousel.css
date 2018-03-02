@@ -1,33 +1,6 @@
-.carousel {
-  height: 100vh;
-}
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 100vh;
-  background-color: #777;
-  padding-top: 52px;
-}
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
-}
-.carousel-control.right {
-  background: none !important;
-}
-.carousel-control.left {
-  background: none !important;
-}
-
-.navbar-default {
-  border-radius: 0;
-}
-
-.navbar-brand {
-  padding: 15px 5px;
-}
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-  margin-left: 0;
+.carousel-inner {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0px;
 }
