@@ -4,3 +4,27 @@
 	margin: 0 auto;
 	padding: 0px;
 }
+
+.carousel-control { background-image: none !important; filter: none !important; progid:none !important;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+top: 50%;
+bottom: 50%;
+
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+  position: fixed;
+
+}
+
+
+.carousel-inner>.item{
+   /*disables white flash*/
+   -webkit-transition: -webkit-transform .5s ease-in-out;
+   -o-transition: -o-transform .5s ease-in-out;
+   transition: transform .5s ease-in-out;
+}
