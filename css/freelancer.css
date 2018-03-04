@@ -38,7 +38,32 @@ h6 {
     text-align: left;
   }
 
+/* Here's the code for the text over image */
 
+div.wrapper {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+
+div.description {
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+p.description_content {
+  padding: 10px;
+  margin: 0px;
+  font-size: 100px;
+}
+
+/* End of code for text over image */
 
 hr.star-light,
 hr.star-primary {
@@ -170,6 +195,7 @@ section.success {
 header.masthead {
   padding-top: 100px;
   padding-bottom: 50px;
+  margin-top: -50px;
   text-align: center;
   color: white;
   background: #e88912; }
@@ -177,6 +203,7 @@ header.masthead {
     display: block;
     margin: 0 auto 20px; }
   header.masthead .intro-text .name {
+    background-image: url("img/portfolio/picture3.jpg");
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 700;

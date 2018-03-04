@@ -86,3 +86,5 @@
   slideInitial();
 }); */
 
+$('#myCarousel').carousel();
+
