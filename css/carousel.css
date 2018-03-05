@@ -1,94 +1,52 @@
-.carousel {
-  margin-bottom: 10%;
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
 }
-
-.carousel-inner {
-	position: relative;
-	display: inline-block;
-	margin: 0 auto;
-	padding: 0px;
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
 }
-
-.carousel-inner > .carousel-item > image {
-  padding-top: 25px;
-  margin: 0 auto;
-  border-radius: 10px 10px 10px 10px;
-  max-height: 500px;
-  width: 750px;
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
 }
-
-.carousel-indicators {
-  position: absolute;
-  bottom: -15%;
-  left: 50%;
-  z-index: 15;
-  width: 60%;
-  padding-left: 0;
-  margin-left: -30%;
-  list-style: none;
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
 }
-
-.carousel-indicators li {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 1px;
-  cursor: pointer;
-  border: 1px solid #ff0000;
-  border-radius: 10px;
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
 }
-
-.carousel-indicators .active {
-  width: 12px;
-  height: 12px;
-  margin: 0;
-  background-color: #ff0000;
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
 }
-.carousel-control { 
-background-image: none !important; 
-filter: none !important; 
-progid:none !important;
--o-transition:.5s;
--ms-transition:.5s;
--moz-transition:.5s;
--webkit-transition:.5s;
-top: 50%;
-bottom: 50%;
-background-image: none;
-cursor: pointer;
-width: 4%;
-
-}
-
-.carousel-control.right, .carousel-control.left {
-  background-image:none;
-  position: fixed;
-  margin-right: 0;
-  margin-left: 0;
-
-}
-
-.carousel-inner .active.left {
-  left: -25%;
-}
-
-.carousel-inner .next {
-  left: 25;
-}
-
-.carousel-inner .prev {
-  left: -25%;
-}
-
-.carousel-inner>.item {
-   /*disables white flash*/
-   -webkit-transition: -webkit-transform .5s ease-in-out;
-   -o-transition: -o-transform .5s ease-in-out;
-   transition: transform .5s ease-in-out;
-}
-
-#myCarousel {
-  margin-bottom: 25px;
-  height: 500px;
-  width: 100px;
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
 }
