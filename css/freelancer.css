@@ -279,7 +279,9 @@ header.masthead {
   .portfolio-modal .modal-dialog .modal-content {
     padding: 100px 0;
     border: 0;
-    border-radius: 0; }
+    border-radius: 0; 
+    margin-right: -700px;
+  }
     .portfolio-modal .modal-dialog .modal-content h2 {
       font-size: 3em;
       margin: 0; }
