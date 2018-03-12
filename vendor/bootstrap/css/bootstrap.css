@@ -602,11 +602,23 @@ pre code {
   .container {
     max-width: 540px;
   }
+  .container-fluid {
+    max-width: 540px;
+  }
+  .portfolio-modal .modal-dialog .modal-content {
+    margin-right: 10px;
+  }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+  }
+  .container-fluid {
+    max-width: 720px;
+  }
+  .portfolio-modal .modal-dialog .modal-content {
+    margin-right: 10px;
   }
 }
 
@@ -614,11 +626,23 @@ pre code {
   .container {
     max-width: 960px;
   }
+  .container-fluid {
+    max-width: 960px;
+  }
+  .portfolio-modal .modal-dialog .modal-content {
+    margin-right: 10px;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 100%;
+  }
+  .container-fluid {
+    max-width: 100%;
+  }
+  .portfolio-modal .modal-dialog .modal-content {
+    margin-right: 10px;
   }
 }
 
@@ -4597,11 +4621,13 @@ button.close {
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
   -webkit-transform: translate(0, -25%);
           transform: translate(0, -25%);
+  width: 100%;
 }
 
 .modal.show .modal-dialog {
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
+  width: 100%;
 }
 
 .modal-open .modal {
@@ -4611,7 +4637,7 @@ button.close {
 
 .modal-dialog {
   position: relative;
-  width: auto;
+  width: 100%;
   margin: 10px;
 }
 

@@ -22,7 +22,7 @@
   display: inline-flex;
   width: 100%;
 }
-#myCarousel3 {
+#myCarousel2 {
   margin-top: 20px;
   margin-bottom: 50px;
 }
@@ -35,14 +35,15 @@
   color: black !important;
 }
 
-/*.media-carousel 
+.media-carousel 
 {
   margin-bottom: 0;
   padding: 0 40px 30px 40px;
   margin-top: 30px;
 } */
+
 /* Previous button  */
-/*.media-carousel .carousel-control.left 
+.media-carousel .carousel-control.left 
 {
   left: -12px;
   background-image: none;
@@ -53,8 +54,9 @@
   width : 40px;
   margin-top: 30px
 }
+
 /* Next button  */
-/*.media-carousel .carousel-control.right 
+.media-carousel .carousel-control.right 
 {
   right: -12px !important;
   background-image: none;
@@ -65,16 +67,18 @@
   width : 40px;
   margin-top: 30px
 }
+
 /* Changes the position of the indicators */
-/*.media-carousel .carousel-indicators 
+.media-carousel .carousel-indicators 
 {
   right: 50%;
   top: auto;
   bottom: 0px;
   margin-right: -19px;
 }
+
 /* Changes the colour of the indicators */
-/*.media-carousel .carousel-indicators li 
+.media-carousel .carousel-indicators li 
 {
   background: #c0c0c0;
 }
@@ -118,7 +122,7 @@
     }
     
     /* left or forward direction */
-    /*.active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
     .carousel-item-next.carousel-item-left + .carousel-item,
     .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
     .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
@@ -129,7 +133,7 @@
     }
     
     /* farthest right hidden item must be abso position for animations */
-    /*.carousel-inner .carousel-item-prev.carousel-item-right {
+    .carousel-inner .carousel-item-prev.carousel-item-right {
         position: absolute;
         top: 0;
         left: 0;
@@ -139,7 +143,7 @@
     }
     
     /* right or prev direction */
-    /*.active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
     .carousel-item-prev.carousel-item-right + .carousel-item,
     .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
     .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
@@ -150,3 +154,59 @@
         display: block;
         visibility: visible;
     }
+
+/* Media queries */
+
+.img-responsive,
+.thumbnail>img,
+.thumbnail a>img,
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 1224px) {
+  .carousel .carousel-inner .carousel-item-next,
+  .carousel .carousel-inner .carousel-item-prev {
+    width: 1224px;
+  }
+  #myCarousel1 .carousel-control .icon-prev,
+  #myCarousel1 .carousel-control .icon-next,
+  #myCarousel1 .carousel-control .glyphicon-chevron-left,
+  #myCarousel1 .carousel-control .glyphicon-chevron-right {
+    width: auto;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: -35px;
+  }
+  #myCarousel2 .carousel-control .icon-prev,
+  #myCarousel2 .carousel-control .icon-next,
+  #myCarousel2 .carousel-control .glyphicon-chevron-left,
+  #myCarousel2 .carousel-control .glyphicon-chevron-right {
+    width: auto;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: -35px
+  }
+}
+
+@media only screen and (min-width: 976px) {
+  .carousel .carousel-inner .carousel-item-next,
+  .carousel .carousel-inner .carousel-item-prev {
+    width: auto;
+  }
+  #myCarousel1 .carousel-control .icon-prev,
+  #myCarousel1 .carousel-control .icon-next,
+  #myCarousel1 .carousel-control .glyphicon-chevron-left,
+  #myCarousel1 .carousel-control .glyphicon-chevron-right {
+    width: auto;
+  }
+  #myCarousel2 .carousel-control .icon-prev,
+  #myCarousel2 .carousel-control .icon-next,
+  #myCarousel2 .carousel-control .glyphicon-chevron-left,
+  #myCarousel2 .carousel-control .glyphicon-chevron-right {
+    width: auto;
+  }
+}

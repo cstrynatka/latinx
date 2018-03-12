@@ -149,7 +149,7 @@ section.success {
       color: white; }
   #mainNav .navbar-nav {
     letter-spacing: 1px;
-    padding-left: 225px; }
+    padding-left: 100px; }
     #mainNav .navbar-nav li.nav-item a.nav-link {
       color: white; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -264,7 +264,9 @@ header.masthead {
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px; } }
+    margin: 0 0 30px; 
+    } 
+  }
 
 .portfolio-modal .modal-dialog {
   max-width: 100%;
@@ -281,7 +283,7 @@ header.masthead {
     padding: 100px 0;
     border: 0;
     border-radius: 0; 
-    margin-right: -700px;
+    margin-right: 10px;
   }
     .portfolio-modal .modal-dialog .modal-content h2 {
       font-size: 3em;
@@ -444,7 +446,7 @@ form .row:first-child .floating-label-form-group {
   
 .mc-field-group { 
   display: block; 
-  max-width: 100%; 
+  max-width: 100%; 
 }
 #mce-EMAIL { 
   padding: .7em 0 .7em 1em; 
