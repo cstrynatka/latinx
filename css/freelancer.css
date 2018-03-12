@@ -641,3 +641,42 @@ footer {
  width:995px;
 }
 
+iframe {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1224px) {
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 962px) {
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 762px) {
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 465px) {
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
