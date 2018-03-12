@@ -642,41 +642,41 @@ footer {
 }
 
 iframe {
-  height: 100%;
-  width: 100%;
+  height: 550px;
+  width: 650px;
 }
 
 @media only screen and (min-width: 1224px) {
   iframe {
-    height: 100%;
-    width: 100%;
+    height: 550px;
+    width: 650px;
   }
 }
 
 @media only screen and (min-width: 1000px) {
   iframe {
-    height: 100%;
-    width: 100%;
+    height: 530px;
+    width: 630px;
   }
 }
 
 @media only screen and (min-width: 962px) {
   iframe {
-    width: 100%;
-    height: 100%;
+    width: 510px;
+    height: 610px;
   }
 }
 
 @media only screen and (min-width: 762px) {
   iframe {
-    width: 100%;
-    height: 100%;
+    width: 450px;
+    height: 550px;
   }
 }
 
 @media only screen and (min-width: 465px) {
   iframe {
-    width: 100%;
-    height: 100%;
+    width: 350px;
+    height: 450px;
   }
 }
