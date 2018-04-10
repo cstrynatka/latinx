@@ -15,6 +15,10 @@
     }
   });
 
+  $(function() {
+    $("#add_topic_modal").appendTo("body");
+  });
+
   // Scroll to top button appear
   $(document).scroll(function() {
     var scrollDistance = $(this).scrollTop();
